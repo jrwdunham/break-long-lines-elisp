@@ -73,6 +73,3 @@
                (when (= 32 (char-after (point))) (delete-char 1)))
         (forward-line)))
     (forward-line)))
-
-;; Map it to C-k
-(global-set-key [(control ?k)] 'break-long-line)
